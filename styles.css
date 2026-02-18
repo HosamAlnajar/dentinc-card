@@ -141,6 +141,13 @@ section {
     color: var(--color-white);
 }
 
+.logo-image {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px; /* slight rounding if the image is square */
+}
+
 .company-name {
     font-size: 4rem;
     font-weight: 700;
