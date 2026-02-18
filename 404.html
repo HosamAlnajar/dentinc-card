@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting... | New Dent Inc.</title>
+    <link rel="icon" type="image/png" href="newdentinc_logo.png">
     <style>
         * {
             margin: 0;
@@ -40,8 +41,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.5rem;
+            /* font-size removed as it was for text/emoji */
             color: white;
+            overflow: hidden;
+            /* Ensure image stays within circle */
+        }
+
+        .logo img {
+            width: 70%;
+            height: auto;
+            object-fit: contain;
         }
 
         h1 {
@@ -96,7 +105,9 @@
 
 <body>
     <div class="redirect-container">
-        <div class="logo">🦷</div>
+        <div class="logo">
+            <img src="newdentinc_logo.png" alt="New Dent Inc. Logo">
+        </div>
         <h1>Redirecting to New Dent Inc.</h1>
         <p>You will be redirected to our home page in a moment...</p>
         <div class="spinner"></div>
