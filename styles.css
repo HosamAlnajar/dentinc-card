@@ -314,6 +314,11 @@ section {
     margin-top: var(--spacing-lg);
 }
 
+.contact-details {
+    display: inline-block;
+    text-align: left;
+}
+
 .contact-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -359,7 +364,7 @@ section {
 }
 
 .contact-card p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
 }
