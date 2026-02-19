@@ -124,7 +124,7 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 160px;
+    width: 280px;
     height: auto;
     transition: var(--transition-smooth);
 }
@@ -442,8 +442,8 @@ section {
     }
 
     .logo {
-        width: 100px;
-        height: 100px;
+        width: 180px;
+        height: auto;
     }
 
     .logo i {
